@@ -11,6 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.RadioButton;
 
 public class DeepRadioGroup extends LinearLayout {
+
     private int mCheckedId = -1;
     private CompoundButton.OnCheckedChangeListener mChildOnCheckedChangeListener;
     private boolean mProtectFromCheckedChange = false;
