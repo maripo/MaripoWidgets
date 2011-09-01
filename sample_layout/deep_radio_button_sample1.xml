@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content" android:layout_width="fill_parent"
+    android:orientation="vertical" android:weightSum="1.0">
+    <org.maripo.android.widget.DeepRadioGroup
+        android:id="@+id/radio_group" android:orientation="vertical"
+        android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TableLayout android:layout_height="fill_parent"
+            android:background="#ddd" android:layout_width="fill_parent">
+            <TableRow android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/radio_button1"
+                    android:layout_height="wrap_content" android:text="Option 1"
+                    android:layout_width="wrap_content"></RadioButton>
+                <RadioButton android:id="@+id/radio_button2"
+                    android:layout_height="wrap_content" android:text="Option 2"
+                    android:layout_width="wrap_content"></RadioButton>
+            </TableRow>
+            <TableRow android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/radio_button3"
+                    android:layout_height="wrap_content" android:text="Option 3"
+                    android:layout_width="wrap_content"></RadioButton>
+                <RadioButton android:id="@+id/radio_button4"
+                    android:layout_height="wrap_content" android:text="Option 4"
+                    android:layout_width="wrap_content"></RadioButton>
+            </TableRow>
+        </TableLayout>
+        <RadioButton android:id="@+id/radio_button5"
+            android:layout_height="wrap_content" android:text="Option 5"
+            android:layout_width="wrap_content"></RadioButton>
+    </org.maripo.android.widget.DeepRadioGroup>
+</LinearLayout>
